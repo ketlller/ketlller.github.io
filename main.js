@@ -13,12 +13,12 @@ var divSellCOIN_USD_livecoin = document.querySelector('.sellCOIN_USD_livecoin sp
 var divBuyCOIN_USD_hotbit = document.querySelector('.buyCOIN_USD_hotbit span');
 var divSellCOIN_USD_hotbit = document.querySelector('.sellCOIN_USD_hotbit span');
 
-var divBuyCOIN_USD_livecoin1 = document.querySelector('.BuyCOIN_USD_livecoin1 span');
-var divSellCOIN_USD_livecoin1 = document.querySelector('.SellCOIN_USD_livecoin1 span');
+var divBuyCOIN_USD_livecoin11 = document.querySelector('.BuyCOIN_USD_livecoin11 span');
+var divSellCOIN_USD_livecoin11 = document.querySelector('.SellCOIN_USD_livecoin11 span');
 var divBuyCOIN_USD11 = document.querySelector('.BuyCOIN_USD11 span');
 var divSellCOIN_USD11 = document.querySelector('.SellCOIN_USD11 span');
-var divBuyCOIN_USD_hotbit1 = document.querySelector('.BuyCOIN_USD_hotbit1 span');
-var divSellCOIN_USD_hotbit1 = document.querySelector('.SellCOIN_USD_hotbit1 span');
+var divBuyCOIN_USD_hotbit11 = document.querySelector('.BuyCOIN_USD_hotbit11 span');
+var divSellCOIN_USD_hotbit11 = document.querySelector('.SellCOIN_USD_hotbit11 span');
  
 var btcalphalivecoin = document.querySelector('.inputdrub1 span');
 var livecoinbtcalpha = document.querySelector('.inputdrub2 span');
@@ -176,9 +176,9 @@ console.log()
     .then(res => {
       res.json().then(body => {  
       divBuyCOIN_USD_livecoin.innerHTML = body.bids[0][0];
-    divBuyCOIN_USD_livecoin1.innerHTML = body.bids[0][1];
+    //divBuyCOIN_USD_livecoin1.innerHTML = body.bids[0][1];
       divSellCOIN_USD_livecoin.innerHTML = body.asks[0][0];
-    divSellCOIN_USD_livecoin1.innerHTML = body.asks[0][1];
+    //divSellCOIN_USD_livecoin1.innerHTML = body.asks[0][1];
     
        currentPrice_BuyCOIN_USD_livecoin = body.bids[0][0];
        currentPrice_SellCOIN_USD_livecoin = body.asks[0][0];
@@ -205,8 +205,15 @@ var value10 = (((currentPrice_SellCOIN_USD_livecoin*100)/currentPrice_SellCOIN_U
 	console.log(body);     
 var value11 = (((currentPrice_BuyCOIN_USD_hotbit*100)/currentPrice_SellCOIN_USD)-100).toFixed(2);         
       divBuyCOIN_USD11.innerHTML = value11;	      
-        
-       
+var value12 = (((currentPrice_SellCOIN_USD*100)/currentPrice_SellCOIN_USD_livecoin)-100).toFixed(2);   
+      divSellCOIN_USD_livecoin11.innerHTML = value12;        
+var value13 = (((currentPrice_BuyCOIN_USD_hotbit*100)/currentPrice_SellCOIN_USD_livecoin)-100).toFixed(2);
+      divBuyCOIN_USD_livecoin11.innerHTML = value13;   
+var value14 = (((currentPrice_SellCOIN_USD*100)/currentPrice_BuyCOIN_USD_hotbit)-100).toFixed(2);      
+      divSellCOIN_USD_hotbit11.innerHTML = value14;	      
+  var value15 = (((currentPrice_SellCOIN_USD_livecoin*100)/currentPrice_BuyCOIN_USD_hotbit)-100).toFixed(2);
+      divBuyCOIN_USD_hotbit11.innerHTML = value15;
+	      
       
       if(value > 0) {
         if(previousPositive) {
@@ -624,7 +631,7 @@ if(currentPrice_BuyCOIN_USD_hotbit < currentPrice_BuyCOIN_USD && $('#hotbitbtcal
       res.json().then(body => {  
       
     divBuyCOIN_USD_hotbit.innerHTML = body.result.orders[0].price;
-    divBuyCOIN_USD_hotbit1.innerHTML = body.result.orders[0].left;
+    //divBuyCOIN_USD_hotbit1.innerHTML = body.result.orders[0].left;
      
     currentPrice_BuyCOIN_USD_hotbit = body.result.orders[0].price;
      
@@ -644,7 +651,7 @@ if(currentPrice_BuyCOIN_USD_hotbit < currentPrice_BuyCOIN_USD && $('#hotbitbtcal
     .then(res => {
       res.json().then(body => {  
  	 divSellCOIN_USD_hotbit.innerHTML = body.result.orders[0].price;
-   divSellCOIN_USD_hotbit1.innerHTML = body.result.orders[0].left;
+   //divSellCOIN_USD_hotbit1.innerHTML = body.result.orders[0].left;
     
    currentPrice_SellCOIN_USD_hotbit = body.result.orders[0].price;
         

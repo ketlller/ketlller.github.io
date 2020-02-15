@@ -198,11 +198,11 @@ console.log()
       btcalphahotbit.innerHTML = value4;
  var value5 = (((currentPrice_BuyCOIN_USD*100)/currentPrice_BuyCOIN_USD_hotbit)-100).toFixed(2);      
       hotbitbtcalpha.innerHTML = value5; 	      
-      console.log(body);
+      
 	      
 var value6 = (((currentPrice_SellCOIN_USD_livecoin*100)/currentPrice_SellCOIN_USD)-100).toFixed(2); 	 
       divSellCOIN_USD1.innerHTML = value6;	      
-	      
+	console.log(body);      
         
        
       

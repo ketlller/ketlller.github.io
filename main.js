@@ -15,8 +15,8 @@ var divSellCOIN_USD_hotbit = document.querySelector('.sellCOIN_USD_hotbit span')
 
 var divBuyCOIN_USD_livecoin1 = document.querySelector('.BuyCOIN_USD_livecoin1 span');
 var divSellCOIN_USD_livecoin1 = document.querySelector('.SellCOIN_USD_livecoin1 span');
-var divBuyCOIN_USD1 = document.querySelector('.BuyCOIN_USD1 span');
-var divSellCOIN_USD1 = document.querySelector('.SellCOIN_USD1 span');
+var divBuyCOIN_USD11 = document.querySelector('.BuyCOIN_USD11 span');
+var divSellCOIN_USD11 = document.querySelector('.SellCOIN_USD11 span');
 var divBuyCOIN_USD_hotbit1 = document.querySelector('.BuyCOIN_USD_hotbit1 span');
 var divSellCOIN_USD_hotbit1 = document.querySelector('.SellCOIN_USD_hotbit1 span');
  
@@ -201,10 +201,10 @@ console.log()
       
 	      
 var value10 = (((currentPrice_SellCOIN_USD_livecoin*100)/currentPrice_SellCOIN_USD)-100).toFixed(2); 	 
-      divSellCOIN_USD1.innerHTML = value10;	      
+      divSellCOIN_USD11.innerHTML = value10;	      
 	console.log(body);     
 var value11 = (((currentPrice_BuyCOIN_USD_hotbit*100)/currentPrice_SellCOIN_USD)-100).toFixed(2);         
-      divBuyCOIN_USD1.innerHTML = value11;	      
+      divBuyCOIN_USD11.innerHTML = value11;	      
         
        
       

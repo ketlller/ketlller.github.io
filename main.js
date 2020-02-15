@@ -158,7 +158,7 @@ console.log()
       divBuyCOIN_USD.innerHTML = body.buy[0].price;  
     divBuyCOIN_USD1.innerHTML = body.buy[0].amount; 
       divSellCOIN_USD.innerHTML = body.sell[0].price;
-    divSellCOIN_USD1.innerHTML = body.sell[0].amount;
+    //divSellCOIN_USD1.innerHTML = body.sell[0].amount;
     
       currentPrice_BuyCOIN_USD = body.buy[0].price;
       currentPrice_SellCOIN_USD = body.sell[0].price;
@@ -199,6 +199,9 @@ console.log()
  var value5 = (((currentPrice_BuyCOIN_USD*100)/currentPrice_BuyCOIN_USD_hotbit)-100).toFixed(2);      
       hotbitbtcalpha.innerHTML = value5; 	      
       console.log(body);
+	      
+var value6 = (((currentPrice_SellCOIN_USD_livecoin*100)/currentPrice_SellCOIN_USD)-100).toFixed(2); 	 
+      divSellCOIN_USD1.innerHTML = value6;	      
 	      
         
        

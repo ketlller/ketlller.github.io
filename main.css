@@ -7,12 +7,12 @@
 
 #min_transaction{padding: 5px;font-size: 14px;width: 40px;border: 1px solid #dbdbdb;}
 
-#min_transaction11{padding: 50px;font-size: 100px;width: 100px;border: 1px solid #dbdbdb;}
-#min_transaction22{padding: 50px;font-size: 100px;width: 100px;border: 1px solid #dbdbdb;}
-#min_transaction33{padding: 50px;font-size: 100px;width: 100px;border: 1px solid #dbdbdb;}
-#min_transaction44{padding: 50px;font-size: 100px;width: 100px;border: 1px solid #dbdbdb;}
-#min_transaction55{padding: 50px;font-size: 100px;width: 100px;border: 1px solid #dbdbdb;}
-#min_transaction66{padding: 50px;font-size: 100px;width: 100px;border: 1px solid #dbdbdb;}
+#min_transaction11{padding: 4px;font-size: 80px;width: 100px;border: 1px solid #dbdbdb;}
+#min_transaction22{padding: 4px;font-size: 80px;width: 100px;border: 1px solid #dbdbdb;}
+#min_transaction33{padding: 4px;font-size: 80px;width: 100px;border: 1px solid #dbdbdb;}
+#min_transaction44{padding: 4px;font-size: 80px;width: 100px;border: 1px solid #dbdbdb;}
+#min_transaction55{padding: 4px;font-size: 80px;width: 100px;border: 1px solid #dbdbdb;}
+#min_transaction66{padding: 4px;font-size: 80px;width: 100px;border: 1px solid #dbdbdb;}
 
 .threepart{display: flex;flex-flow: row;justify-content: space-evenly;}
 

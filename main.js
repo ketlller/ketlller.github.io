@@ -126,6 +126,11 @@ var previousPositive66666 = true;
 //var StatusConect_livecoin = document.querySelector('#StatusConect_livecoin');
 //var StatusConect_hotbit = document.querySelector('#StatusConect_hotbit');
 
+
+ var Status_min_transaction11 = document.querySelector('#Status_min_transaction11');
+
+
+
  btn.addEventListener('click', () => {  
 
 
@@ -637,9 +642,20 @@ if(currentPrice_BuyCOIN_USD_livecoin < min_transaction44 && $('#min_transaction4
 if(currentPrice_BuyCOIN_USD_hotbit > min_transaction55 && $('#min_transaction55_notificator').prop('checked'))beep(); 	      
  
 	      var min_transaction66 = $('#min_transaction66').val();
- 	      
 //var min_trans66 = min_transaction66 - 0;	      
 if(currentPrice_SellCOIN_USD_hotbit < min_transaction66 && $('#min_transaction66_notificator').prop('checked'))beep(); 
+	      
+	      
+	      
+ if(currentPrice_SellCOIN_USD > min_transaction11) { 
+           Status_min_transaction11.innerHTML = ('Status: Ордер продан');
+      Status_min_transaction11.style.color = "#006400";
+
+        } else {
+        Status_min_transaction11.innerHTML = ('Status: Ордер в ожидании');
+             Status_min_transaction11.style.color = "#f00";
+      } 	      
+	      
 	      
 	      
        

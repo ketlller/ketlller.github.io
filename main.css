@@ -16,13 +16,10 @@
 #n5{ position: fixed; bottom: 545px; left: 909px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
 #n6{ position: fixed; bottom: 545px; left: 1220px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
 
-#allbalance_Coin111{ position: fixed; bottom: 490px; left: 465px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
-#allbalance_Coin222{ position: fixed; bottom: 490px; left: 773px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
+#out1{ position: fixed; bottom: 490px; left: 465px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
+#out2{ position: fixed; bottom: 490px; left: 773px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
 
-.out1 { position: fixed; bottom: 490px; right: 465px; display: block; background: #2db700; color: #fff; text-decoration: none; padding: 6px 23px; font-size: 17px;}
-.out1:hover { background: #fff2ee; }
-.out2 { position: fixed; bottom: 490px; right: 773px; display: block; background: #2db700; color: #fff; text-decoration: none; padding: 6px 23px; font-size: 17px;}
-.out2:hover { background: #fff2ee; }
+ 
 
 
 .btn11 { position: fixed; bottom: 400px; right: 20px;

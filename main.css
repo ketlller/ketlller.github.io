@@ -9,20 +9,20 @@
 
  
 
-#balance_1{ position: fixed; bottom: 545px; left: 20px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
-#balance_2{ position: fixed; bottom: 545px; left: 330px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
-#balance_3{ position: fixed; bottom: 545px; left: 465px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
-#balance_4{ position: fixed; bottom: 545px; left: 773px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
-#balance_5{ position: fixed; bottom: 545px; left: 909px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
-#balance_6{ position: fixed; bottom: 545px; left: 1220px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
+#n1{ position: fixed; bottom: 545px; left: 20px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
+#n2{ position: fixed; bottom: 545px; left: 330px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
+#n3{ position: fixed; bottom: 545px; left: 465px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
+#n4{ position: fixed; bottom: 545px; left: 773px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
+#n5{ position: fixed; bottom: 545px; left: 909px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
+#n6{ position: fixed; bottom: 545px; left: 1220px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
 
 #allbalance_Coin111{ position: fixed; bottom: 490px; left: 465px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
 #allbalance_Coin222{ position: fixed; bottom: 490px; left: 773px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
 
-.allbalance_Coin11 { position: fixed; bottom: 490px; right: 465px; display: block; background: #2db700; color: #fff; text-decoration: none; padding: 6px 23px; font-size: 17px;}
-.allbalance_Coin11:hover { background: #fff2ee; }
-.allbalance_Coin22 { position: fixed; bottom: 490px; right: 773px; display: block; background: #2db700; color: #fff; text-decoration: none; padding: 6px 23px; font-size: 17px;}
-.allbalance_Coin22:hover { background: #fff2ee; }
+.out1 { position: fixed; bottom: 490px; right: 465px; display: block; background: #2db700; color: #fff; text-decoration: none; padding: 6px 23px; font-size: 17px;}
+.out1:hover { background: #fff2ee; }
+.out2 { position: fixed; bottom: 490px; right: 773px; display: block; background: #2db700; color: #fff; text-decoration: none; padding: 6px 23px; font-size: 17px;}
+.out2:hover { background: #fff2ee; }
 
 
 .btn11 { position: fixed; bottom: 400px; right: 20px;

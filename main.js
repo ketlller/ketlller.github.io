@@ -816,10 +816,10 @@ var balance_4 = $('#balance_4').val();
 var balance_5 = $('#balance_5').val();	 
 var balance_6 = $('#balance_6').val();	 
  
-var allbalance_76 = (balance_1 + balance_3 + balance_5).toFixed(2);   
-      allbalance_Coin1.innerHTML = value;
-var allbalance_86 = (balance_2 + balance_4 + balance_6).toFixed(2);  
-      allbalance_Coin2.innerHTML = value;	 
+var allbalance_7 = (balance_1 + balance_3 + balance_5).toFixed(2);   
+      allbalance_Coin1.innerHTML = allbalance_7;
+var allbalance_8 = (balance_2 + balance_4 + balance_6).toFixed(2);  
+      allbalance_Coin2.innerHTML = allbalance_8;	 
 	 
    
    setTimeout(() => {   

@@ -49,7 +49,7 @@ $(function() {
  
 <script type="text/javascript">
  $(document).ready(function(){
-    $("#menu").on("click","a", function (event) {
+    $("#btn11").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
@@ -59,18 +59,6 @@ $(function() {
 </script>
 	
 
-	
-<nav id="menu">
-    <ul>
-        <li><a href="#yak1">Домой</a></li>
-        <li><a href="#yak2">Ссылка на якорь 2</a></li>
-        <li><a href="#yak3">Ссылка на якорь 3</a></li>
-        <li><a href="#yak4">Ссылка на якорь 4</a></li>
-    </ul>
-</nav>
-
-
-	
 	
 	
  <div id="main"> 
@@ -85,8 +73,7 @@ $(function() {
    <button class='button'>Обновить курс</button> 
   </div>
 	
-	
-	<button onclick="document.location='<a href="#yak1">'">Переход по ссылке</button>
+ 
 	
 	<a href="#yak1" class="btn11">Комментировать</a>
 	

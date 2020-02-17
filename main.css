@@ -8,7 +8,7 @@
 .button:hover { background: #222; }
 
 
-.btn11 {
+.btn11 { position: fixed;
     display: inline-block; /* Строчно-блочный элемент */
     background: #8C959D; /* Серый цвет фона */
     color: #fff; /* Белый цвет текста */

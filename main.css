@@ -14,7 +14,8 @@
 #min_transaction55{padding: 5px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
 #min_transaction66{padding: 5px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
 
-#min_trans11{padding: 5px;font-size: 14px;width: 80px;border: 3px solid #ff0808;}
+#min_trans11{padding: 5px;font-size: 10px;width: 60px;border: 3px solid #ff0808;}
+#min_trans22{padding: 5px;font-size: 10px;width: 60px;border: 3px solid #ff0808;}
 
 .threepart{display: flex;flex-flow: row;justify-content: space-evenly;}
 

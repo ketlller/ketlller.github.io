@@ -620,8 +620,8 @@ if(currentPrice_BuyCOIN_USD_hotbit < currentPrice_BuyCOIN_USD_livecoin && $('#ho
 if(currentPrice_SellCOIN_USD < currentPrice_SellCOIN_USD_hotbit && $('#btcalphahotbit_notificator').prop('checked'))beep();        
 if(currentPrice_BuyCOIN_USD_hotbit < currentPrice_BuyCOIN_USD && $('#hotbitbtcalpha_notificator').prop('checked'))beep();     
 
-  var min_transaction66 = parseInt($('#min_transaction66'));
-//var min_transaction66 = parseInt($('#min_transaction66').val());	      
+ // var min_transaction66 = parseInt($('#min_transaction66'));
+var min_transaction66 = parseInt($('#min_transaction66').val());	      
 //var min_trans66 = min_transaction66 - 0;	      
 if(currentPrice_SellCOIN_USD_hotbit < min_transaction66 && $('#min_transaction66_notificator').prop('checked'))beep(); 
        

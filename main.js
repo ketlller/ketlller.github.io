@@ -138,12 +138,12 @@ var Status_min_transaction44 = document.querySelector('#Status_min_transaction44
 var Status_min_transaction55 = document.querySelector('#Status_min_transaction55');
 var Status_min_transaction66 = document.querySelector('#Status_min_transaction66');
 
-var balance_1 = document.querySelector('#balance_1');
-var balance_2 = document.querySelector('#balance_2');
-var balance_3 = document.querySelector('#balance_3');
-var balance_4 = document.querySelector('#balance_4');
-var balance_5 = document.querySelector('#balance_5');
-var balance_6 = document.querySelector('#balance_6');
+//var balance_1 = document.querySelector('#balance_1');
+//var balance_2 = document.querySelector('#balance_2');
+//var balance_3 = document.querySelector('#balance_3');
+//var balance_4 = document.querySelector('#balance_4');
+//var balance_5 = document.querySelector('#balance_5');
+//var balance_6 = document.querySelector('#balance_6');
 
 
  btn.addEventListener('click', () => {  
@@ -807,11 +807,18 @@ if(min_transaction66 > 0) {
   })
   .catch(err => console.log(err)); 
   
-   
+	 
+	 
+var balance_1 = $('#balance_1').val();	
+var balance_2 = $('#balance_2').val();	 
+var balance_3 = $('#balance_3').val();	 
+var balance_4 = $('#balance_4').val();	 
+var balance_5 = $('#balance_5').val();	 
+var balance_6 = $('#balance_6').val();	 
  
-var allbalance_7 = (balance_1 + balance_3 + balance_5).toFixed(2);   
+var allbalance_76 = (balance_1 + balance_3 + balance_5).toFixed(2);   
       allbalance_Coin1.innerHTML = value;
-var allbalance_8 = (balance_2 + balance_4 + balance_6).toFixed(2);  
+var allbalance_86 = (balance_2 + balance_4 + balance_6).toFixed(2);  
       allbalance_Coin2.innerHTML = value;	 
 	 
    

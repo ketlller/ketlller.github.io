@@ -653,7 +653,7 @@ if(min_transaction11 > 0) {
 }
         } 
 	else {
-	if(min_transaction11 > 0) {	
+	if(min_transaction11 = 0) {	
 		
         Status_min_transaction11.innerHTML = ('Status: Ордер в ожидании');
              Status_min_transaction11.style.color = "#f00";

@@ -646,15 +646,18 @@ if(currentPrice_BuyCOIN_USD_hotbit > min_transaction55 && $('#min_transaction55_
 if(currentPrice_SellCOIN_USD_hotbit < min_transaction66 && $('#min_transaction66_notificator').prop('checked'))beep1(); 
 	      
 	      
-	      
+if(min_transaction11 > 0) {	      
  if(currentPrice_SellCOIN_USD > min_transaction11) { 
            Status_min_transaction11.innerHTML = ('Status: Ордер продан');
       Status_min_transaction11.style.color = "#006400";
-
-        } else {
+}
+        } 
+	else {
+	if(min_transaction11 > 0) {	
         Status_min_transaction11.innerHTML = ('Status: Ордер в ожидании');
              Status_min_transaction11.style.color = "#f00";
-      } 	      
+      } 
+		}
 	      
 	      
 	      

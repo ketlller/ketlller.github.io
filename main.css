@@ -4,7 +4,7 @@
 .halfer{display: flex;flex-flow: row;justify-content: space-around;margin: 2% 10%;}
 
 
-.button { position: fixed; bottom: 440px; right: 20px; display: block; background: #2db700; color: #fff; text-decoration: none; padding: 6px 23px; font-size: 17px;}
+.button { position: fixed; bottom: 470px; right: 20px; display: block; background: #2db700; color: #fff; text-decoration: none; padding: 6px 23px; font-size: 17px;}
 .button:hover { background: #222; }
 
 

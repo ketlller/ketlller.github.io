@@ -782,6 +782,10 @@ livecoinbtcalphaSMS(token,text1,text2,text3,text4,text5,text6,chatid);
 
   function beep() {
 	(new Audio("beep.wav")).play();
-	  (new Audio("beep1.wav")).play();
+	
 };
-  
+   function beep1() {
+	 (new Audio("beep1.wav")).play();
+};
+
+

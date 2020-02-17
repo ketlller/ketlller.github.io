@@ -652,69 +652,69 @@ if(currentPrice_SellCOIN_USD_hotbit < min_transaction66 && $('#min_transaction66
 	      
 if(min_transaction11 > 0) {	      
  if(currentPrice_SellCOIN_USD > min_transaction11) { 
-           Status_min_transaction11.innerHTML = ('Status: Ордер продан');
+           Status_min_transaction11.innerHTML = ('ПРОДАН');
       Status_min_transaction11.style.color = "#006400";
 }
         } 
 	else {
-	     Status_min_transaction11.innerHTML = ('Status: Ордер в ожидании');
+	     Status_min_transaction11.innerHTML = ('ОЖИДАЮ');
              Status_min_transaction11.style.color = "#f00";
       } 
 		
 if(min_transaction22 > 0) {	      
  if(currentPrice_BuyCOIN_USD < min_transaction22) { 
-           Status_min_transaction22.innerHTML = ('Status: ПРОДАН');
+           Status_min_transaction22.innerHTML = ('ПРОДАН');
       Status_min_transaction22.style.color = "#006400";
 }
         } 
 	else {
-	     Status_min_transaction22.innerHTML = ('---');
+	     Status_min_transaction22.innerHTML = ('ОЖИДАЮ');
              Status_min_transaction22.style.color = "#f00";
       } 		
 	      
 if(min_transaction33 > 0) {	      
  if(currentPrice_SellCOIN_USD_livecoin > min_transaction33) { 
-           Status_min_transaction33.innerHTML = ('Status: ПРОДАН');
+           Status_min_transaction33.innerHTML = ('ПРОДАН');
       Status_min_transaction33.style.color = "#006400";
 }
         } 
 	else {
-	     Status_min_transaction33.innerHTML = ('---');
+	     Status_min_transaction33.innerHTML = ('ОЖИДАЮ');
              Status_min_transaction33.style.color = "#f00";
       } 	      
 	      
 if(min_transaction44 > 0) {	      
  if(currentPrice_BuyCOIN_USD_livecoin < min_transaction44) { 
-           Status_min_transaction44.innerHTML = ('Status: ПРОДАН');
+           Status_min_transaction44.innerHTML = ('ПРОДАН');
       Status_min_transaction44.style.color = "#006400";
 }
         } 
 	else {
-	     Status_min_transaction44.innerHTML = ('---');
+	     Status_min_transaction44.innerHTML = ('ОЖИДАЮ');
              Status_min_transaction44.style.color = "#f00";
       } 	      
 	      
 	      
 if(min_transaction55 > 0) {	      
  if(currentPrice_BuyCOIN_USD_hotbit > min_transaction55) { 
-           Status_min_transaction55.innerHTML = ('Status: ПРОДАН');
+           Status_min_transaction55.innerHTML = ('ПРОДАН');
       Status_min_transaction55.style.color = "#006400";
 }
         } 
 	else {
-	     Status_min_transaction55.innerHTML = ('---');
+	     Status_min_transaction55.innerHTML = ('ОЖИДАЮ');
              Status_min_transaction55.style.color = "#f00";
       } 	      
 	      
 	      
 if(min_transaction66 > 0) {	      
  if(currentPrice_SellCOIN_USD_hotbit < min_transaction66) { 
-           Status_min_transaction66.innerHTML = ('Status: ПРОДАН');
+           Status_min_transaction66.innerHTML = ('ПРОДАН');
       Status_min_transaction66.style.color = "#006400";
 }
         } 
 	else {
-	     Status_min_transaction66.innerHTML = ('---');
+	     Status_min_transaction66.innerHTML = ('ОЖИДАЮ');
              Status_min_transaction66.style.color = "#f00";
       } 	      
 	      

@@ -41,9 +41,6 @@ var hotbitbtcalpha = document.querySelector('.inputdrub4 span');
 var hotbitlivecoin = document.querySelector('.inputdrub5 span');
 var livecoinhotbit = document.querySelector('.inputdrub6 span');
 
-var allbalance_Coin1 = document.querySelector('.allbalance_Coin1 span');
-var allbalance_Coin2 = document.querySelector('.allbalance_Coin2 span');
-
 
 var counter = document.querySelector('#counter');
 var counter1 = document.querySelector('#counter1');
@@ -138,16 +135,8 @@ var Status_min_transaction44 = document.querySelector('#Status_min_transaction44
 var Status_min_transaction55 = document.querySelector('#Status_min_transaction55');
 var Status_min_transaction66 = document.querySelector('#Status_min_transaction66');
 
-//var balance_1 = document.querySelector('#balance_1');
-//var balance_2 = document.querySelector('#balance_2');
-//var balance_3 = document.querySelector('#balance_3');
-//var balance_4 = document.querySelector('#balance_4');
-//var balance_5 = document.querySelector('#balance_5');
-//var balance_6 = document.querySelector('#balance_6');
-
 
  btn.addEventListener('click', () => {  
-
 
    var val1 = document.querySelector("#new_type1").value;
    var val2 = document.querySelector("#new_type2").value;
@@ -182,11 +171,9 @@ let resUrl4 = proxyUrl + targetUrl_COIN_USD_hotbit2;
 console.log()
    
    
-   
-   
-   
-   
-   
+  
+	 
+	 
  
    fetch(resUrl1)
     .then(res => {
@@ -808,20 +795,36 @@ if(min_transaction66 > 0) {
   .catch(err => console.log(err)); 
   
 	 
-	 
-var balance_1 = $('#balance_1').val();	
-var balance_2 = $('#balance_2').val();	 
-var balance_3 = $('#balance_3').val();	 
-var balance_4 = $('#balance_4').val();	 
-var balance_5 = $('#balance_5').val();	 
-var balance_6 = $('#balance_6').val();	 
+ 	 
+
+//function plus () {
+  var num1, num2, num3, num4, num5, num6, result1, result2;
+num1 = document.getElementById('n1').value;
+num1 = parseInt(num1);
+
+num2 = document.getElementById('n2').value;
+num2 = parseInt(num2);
+
+num3 = document.getElementById('n3').value;
+num3 = parseInt(num3);
  
-var allbalance_7 = (balance_1 + balance_3 + balance_5).toFixed(2);   
-      allbalance_Coin1.innerHTML = allbalance_7;
-var allbalance_8 = (balance_2 + balance_4 + balance_6).toFixed(2);  
-      allbalance_Coin2.innerHTML = allbalance_8;	 
+num4 = document.getElementById('n4').value;
+num4 = parseInt(num4);
+
+num5 = document.getElementById('n5').value;
+num5 = parseInt(num5);
+
+num6 = document.getElementById('n6').value;
+num6 = parseInt(num6);  
+  
+result1 = num1 + num3 + num5;
+result2 = num2 + num4 + num6;  
+document.getElementById('out1').innerHTML = result1;
+document.getElementById('out2').innerHTML = result2; 	 
 	 
    
+	 
+	 
    setTimeout(() => {   
 //отправляем смс на Телеграм бота   
 var chatid = "278006495";

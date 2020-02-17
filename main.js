@@ -637,7 +637,7 @@ if(currentPrice_BuyCOIN_USD_livecoin < min_transaction44 && $('#min_transaction4
 if(currentPrice_BuyCOIN_USD_hotbit > min_transaction55 && $('#min_transaction55_notificator').prop('checked'))beep(); 	      
  
 	      var min_transaction66 = $('#min_transaction66').val();
-//var min_transaction66 = parseInt($('#min_transaction66').toFixed(2));	      
+ 	      
 //var min_trans66 = min_transaction66 - 0;	      
 if(currentPrice_SellCOIN_USD_hotbit < min_transaction66 && $('#min_transaction66_notificator').prop('checked'))beep(); 
 	      

@@ -120,6 +120,8 @@ var previousPositive44444 = true;
 var previousPositive55555 = true; 
 var previousPositive66666 = true; 
 
+var min_transaction6 = parseInt($('#min_transaction6').val());
+
 //var StatusConect_btcalpha = document.querySelector('#StatusConect_btcalpha');
 //var StatusConect_livecoin = document.querySelector('#StatusConect_livecoin');
 //var StatusConect_hotbit = document.querySelector('#StatusConect_hotbit');
@@ -616,7 +618,9 @@ if(currentPrice_SellCOIN_USD_livecoin < currentPrice_SellCOIN_USD_hotbit && $('#
 if(currentPrice_SellCOIN_USD < currentPrice_BuyCOIN_USD_livecoin && $('#btcalphalivecoin_notificator').prop('checked'))beep();
 if(currentPrice_BuyCOIN_USD_hotbit < currentPrice_BuyCOIN_USD_livecoin && $('#hotbitlivecoin_notificator').prop('checked'))beep();        
 if(currentPrice_SellCOIN_USD < currentPrice_SellCOIN_USD_hotbit && $('#btcalphahotbit_notificator').prop('checked'))beep();        
-if(currentPrice_BuyCOIN_USD_hotbit < currentPrice_BuyCOIN_USD && $('#hotbitbtcalpha_notificator').prop('checked'))beep();        
+if(currentPrice_BuyCOIN_USD_hotbit < currentPrice_BuyCOIN_USD && $('#hotbitbtcalpha_notificator').prop('checked'))beep();     
+
+if(currentPrice_SellCOIN_USD_hotbit < min_transaction6 && $('#min_transaction6_notificator').prop('checked'))beep(); 
        
    // if(StatusConect_COIN_USD_btcalpha > 0) { 
          //   StatusConect_btcalpha.innerHTML = ('Status: OK Conected');

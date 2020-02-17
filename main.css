@@ -8,8 +8,9 @@
 .button:hover { background: #222; }
 
 .balance_1 { position: fixed; bottom: 200px; right: 20px; display: block; background: #2db700; color: #fff; text-decoration: none; padding: 6px 23px; font-size: 17px;}
-.balance1:hover { background: #222; }
+.balance_1:hover { background: #222; }
 
+#balance_2{ position: fixed; bottom: 280px; right: 20px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
 
 .btn11 { position: fixed; bottom: 400px; right: 20px;
     display: inline-block; /* Строчно-блочный элемент */

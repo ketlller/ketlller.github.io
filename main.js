@@ -41,6 +41,10 @@ var hotbitbtcalpha = document.querySelector('.inputdrub4 span');
 var hotbitlivecoin = document.querySelector('.inputdrub5 span');
 var livecoinhotbit = document.querySelector('.inputdrub6 span');
 
+var allbalance_Coin1 = document.querySelector('.allbalance_Coin1 span');
+var allbalance_Coin2 = document.querySelector('.allbalance_Coin2 span');
+
+
 var counter = document.querySelector('#counter');
 var counter1 = document.querySelector('#counter1');
 var counter2 = document.querySelector('#counter2');
@@ -133,6 +137,13 @@ var Status_min_transaction33 = document.querySelector('#Status_min_transaction33
 var Status_min_transaction44 = document.querySelector('#Status_min_transaction44');
 var Status_min_transaction55 = document.querySelector('#Status_min_transaction55');
 var Status_min_transaction66 = document.querySelector('#Status_min_transaction66');
+
+var balance_1 = document.querySelector('#balance_1');
+var balance_2 = document.querySelector('#balance_2');
+var balance_3 = document.querySelector('#balance_3');
+var balance_4 = document.querySelector('#balance_4');
+var balance_5 = document.querySelector('#balance_5');
+var balance_6 = document.querySelector('#balance_6');
 
 
  btn.addEventListener('click', () => {  
@@ -797,6 +808,12 @@ if(min_transaction66 > 0) {
   .catch(err => console.log(err)); 
   
    
+ 
+var allbalance_7 = (balance_1 + balance_3 + balance_5).toFixed(2);   
+      allbalance_Coin1.innerHTML = value;
+var allbalance_8 = (balance_2 + balance_4 + balance_6).toFixed(2);  
+      allbalance_Coin2.innerHTML = value;	 
+	 
    
    setTimeout(() => {   
 //отправляем смс на Телеграм бота   
@@ -851,5 +868,8 @@ livecoinbtcalphaSMS(token,text1,text2,text3,text4,text5,text6,chatid);
    function beep1() {
 	 (new Audio("beep1.wav")).play();
 };
+
+
+
 
 

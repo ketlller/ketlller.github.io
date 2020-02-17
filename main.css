@@ -3,6 +3,11 @@
 .half{max-width:50%;text-align: center;}
 .halfer{display: flex;flex-flow: row;justify-content: space-around;margin: 2% 10%;}
 
+
+.button { position: fixed; bottom: 20px; right: 20px; display: block; background: #2db700; color: #fff; text-decoration: none; padding: 6px 23px; font-size: 17px;}
+.button:hover { background: #222; }
+
+
 #status-block{height: 150px;display: none;}
 
 #min_transaction{padding: 5px;font-size: 14px;width: 40px;border: 1px solid #dbdbdb;}

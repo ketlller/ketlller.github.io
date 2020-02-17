@@ -620,10 +620,28 @@ if(currentPrice_BuyCOIN_USD_hotbit < currentPrice_BuyCOIN_USD_livecoin && $('#ho
 if(currentPrice_SellCOIN_USD < currentPrice_SellCOIN_USD_hotbit && $('#btcalphahotbit_notificator').prop('checked'))beep();        
 if(currentPrice_BuyCOIN_USD_hotbit < currentPrice_BuyCOIN_USD && $('#hotbitbtcalpha_notificator').prop('checked'))beep();     
 
- var min_transaction66 = $('#min_transaction66').val();
+	      
+var min_transaction11 = $('#min_transaction11').val();	      
+if(currentPrice_SellCOIN_USD > min_transaction11 && $('#min_transaction11_notificator').prop('checked'))beep();	      
+ 
+	      var min_transaction22 = $('#min_transaction22').val();	      
+if(currentPrice_BuyCOIN_USD < min_transaction22 && $('#min_transaction22_notificator').prop('checked'))beep();	      
+
+	      var min_transaction33 = $('#min_transaction33').val();	      
+if(currentPrice_SellCOIN_USD_livecoin > min_transaction33 && $('#min_transaction33_notificator').prop('checked'))beep();	      
+ 
+	      var min_transaction44 = $('#min_transaction44').val();	      
+if(currentPrice_BuyCOIN_USD_livecoin < min_transaction44 && $('#min_transaction44_notificator').prop('checked'))beep(); 	      
+ 
+	      var min_transaction55 = $('#min_transaction55').val();	      
+if(currentPrice_BuyCOIN_USD_hotbit > min_transaction55 && $('#min_transaction55_notificator').prop('checked'))beep(); 	      
+ 
+	      var min_transaction66 = $('#min_transaction66').val();
 //var min_transaction66 = parseInt($('#min_transaction66').toFixed(2));	      
 //var min_trans66 = min_transaction66 - 0;	      
 if(currentPrice_SellCOIN_USD_hotbit < min_transaction66 && $('#min_transaction66_notificator').prop('checked'))beep(); 
+	      
+	      
        
    // if(StatusConect_COIN_USD_btcalpha > 0) { 
          //   StatusConect_btcalpha.innerHTML = ('Status: OK Conected');

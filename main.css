@@ -10,11 +10,11 @@
  
 
 #balance_1{ position: fixed; bottom: 550px; left: 20px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
-#balance_2{ position: fixed; bottom: 550px; left: 320px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
-#balance_3{ position: fixed; bottom: 550px; left: 460px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
-#balance_4{ position: fixed; bottom: 550px; left: 760px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
-#balance_5{ position: fixed; bottom: 550px; left: 1000px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
-#balance_6{ position: fixed; bottom: 550px; left: 1250px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
+#balance_2{ position: fixed; bottom: 550px; left: 330px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
+#balance_3{ position: fixed; bottom: 550px; left: 490px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
+#balance_4{ position: fixed; bottom: 550px; left: 790px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
+#balance_5{ position: fixed; bottom: 550px; left: 930px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
+#balance_6{ position: fixed; bottom: 550px; left: 1100px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
 
 
 

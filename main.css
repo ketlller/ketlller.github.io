@@ -16,11 +16,13 @@
 #balance_5{ position: fixed; bottom: 545px; left: 909px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
 #balance_6{ position: fixed; bottom: 545px; left: 1220px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
 
-#allbalance_Coin1{ position: fixed; bottom: 490px; left: 465px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
-#allbalance_Coin2{ position: fixed; bottom: 490px; left: 773px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
+#allbalance_Coin111{ position: fixed; bottom: 490px; left: 465px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
+#allbalance_Coin222{ position: fixed; bottom: 490px; left: 773px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
 
-
-
+.allbalance_Coin1 { position: fixed; bottom: 490px; right: 465px; display: block; background: #2db700; color: #fff; text-decoration: none; padding: 6px 23px; font-size: 17px;}
+.allbalance_Coin1:hover { background: #222; }
+.allbalance_Coin2 { position: fixed; bottom: 490px; right: 773px; display: block; background: #2db700; color: #fff; text-decoration: none; padding: 6px 23px; font-size: 17px;}
+.allbalance_Coin2:hover { background: #222; }
 
 
 .btn11 { position: fixed; bottom: 400px; right: 20px;

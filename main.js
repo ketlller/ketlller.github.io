@@ -799,22 +799,22 @@ if(min_transaction66 > 0) {
 
 //function plus () {
   var num1, num2, num3, num4, num5, num6, result1, result2;
-num1 = document.getElementById('n1').value;
+num1 = document.getElementById('n1').toFixed(2);
 num1 = parseInt(num1);
 
-num2 = document.getElementById('n2').value;
+num2 = document.getElementById('n2').toFixed(2);
 num2 = parseInt(num2);
 
-num3 = document.getElementById('n3').value;
+num3 = document.getElementById('n3').toFixed(2);
 num3 = parseInt(num3);
  
-num4 = document.getElementById('n4').value;
+num4 = document.getElementById('n4').toFixed(2);
 num4 = parseInt(num4);
 
-num5 = document.getElementById('n5').value;
+num5 = document.getElementById('n5').toFixed(2);
 num5 = parseInt(num5);
 
-num6 = document.getElementById('n6').value;
+num6 = document.getElementById('n6').toFixed(2);
 num6 = parseInt(num6);  
   
 result1 = num1 + num3 + num5;

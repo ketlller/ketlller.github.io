@@ -819,8 +819,8 @@ num6 = parseFloat(num6);
   
 result1 = num1 + num3 + num5;
 result2 = num2 + num4 + num6;  
-document.getElementById('out1').innerHTML = result1;
-document.getElementById('out2').innerHTML = result2; 	 
+document.getElementById('out1').innerHTML = result1.toFixed(2);
+document.getElementById('out2').innerHTML = result2.toFixed(2); 	 
 	 
    
 	 

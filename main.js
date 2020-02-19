@@ -837,8 +837,8 @@ var text3 = "%0ABtc-alpha ➤ Livecoin:" + ' ' + (btcalphalivecoin.innerHTML) + 
 var text4 = "%0ALivecoin ➤ Btc-alpha:" + ' ' + (livecoinbtcalpha.innerHTML) + "%";   
 var text5 = "%0ALivecoin ➤ Hotbit:" + ' ' + (livecoinhotbit.innerHTML) + "%";
 var text6 = "%0AHotbit ➤ Livecoin:" + ' ' + (hotbitlivecoin.innerHTML) + "%"; 
-var text7 = "%0AБаланс:" + ' ' + (document.getElementById('out1').innerHTML) + "USD";
-var text8 = "%0AБаланс:" + ' ' + (document.getElementById('out2').innerHTML) + "PZM"; 	   
+var text7 = "%0AБаланс:" + ' ' + (document.getElementById('out1').innerHTML) + ' ' + "USD";
+var text8 = "%0AБаланс:" + ' ' + (document.getElementById('out2').innerHTML) + ' ' + "PZM"; 	   
      
 //Отправляем текст в наш телеграм канал
 livecoinbtcalphaSMS(token,text1,text2,text3,text4,text5,text6,text7,text8,chatid); 

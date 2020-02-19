@@ -799,23 +799,23 @@ if(min_transaction66 > 0) {
 
 //function plus () {
   var num1, num2, num3, num4, num5, num6, result1, result2;
-num1 = document.getElementById('n1').toFixed(2);
-num1 = parseInt(num1);
+num1 = document.getElementById('n1').value;
+num1 = parseFloat(num1);
 
-num2 = document.getElementById('n2').toFixed(2);
-num2 = parseInt(num2);
+num2 = document.getElementById('n2').value;
+num2 = parseFloat(num2);
 
-num3 = document.getElementById('n3').toFixed(2);
-num3 = parseInt(num3);
+num3 = document.getElementById('n3').value;
+num3 = parseFloat(num3);
  
-num4 = document.getElementById('n4').toFixed(2);
-num4 = parseInt(num4);
+num4 = document.getElementById('n4').value;
+num4 = parseFloat(num4);
 
-num5 = document.getElementById('n5').toFixed(2);
-num5 = parseInt(num5);
+num5 = document.getElementById('n5').value;
+num5 = parseFloat(num5);
 
-num6 = document.getElementById('n6').toFixed(2);
-num6 = parseInt(num6);  
+num6 = document.getElementById('n6').value;
+num6 = parseFloat(num6);  
   
 result1 = num1 + num3 + num5;
 result2 = num2 + num4 + num6;  
@@ -834,15 +834,19 @@ var token = "996232700:AAEnZnXQV8SkMOXNIm3zChiytOdZtFcKu4Q";
 var text1 = "Btc-alpha ➤ Hotbit:" + ' ' + (btcalphahotbit.innerHTML) + "%"; 
 var text2 = "%0AHotbit ➤ Btc-alpha:" + ' ' + (hotbitbtcalpha.innerHTML) + "%"; 
 var text3 = "%0ABtc-alpha ➤ Livecoin:" + ' ' + (btcalphalivecoin.innerHTML) + "%";
-var text4 = "%0ALivecoin ➤ Btc-alpha:" + ' ' + (livecoinbtcalpha.innerHTML) + "%";   var text5 = "%0ALivecoin ➤ Hotbit:" + ' ' + (livecoinhotbit.innerHTML) + "%";
-var text6 = "%0AHotbit ➤ Livecoin:" + ' ' + (hotbitlivecoin.innerHTML) + "%";  
+var text4 = "%0ALivecoin ➤ Btc-alpha:" + ' ' + (livecoinbtcalpha.innerHTML) + "%";   
+var text5 = "%0ALivecoin ➤ Hotbit:" + ' ' + (livecoinhotbit.innerHTML) + "%";
+var text6 = "%0AHotbit ➤ Livecoin:" + ' ' + (hotbitlivecoin.innerHTML) + "%"; 
+	   
+var text7 = "%0Всего:" + ' ' + (document.getElementById('out1').innerHTML) + "USD";
+var text8 = "%0Всего:" + ' ' + (document.getElementById('out2').innerHTML) + "PZM"; 	   
      
 //Отправляем текст в наш телеграм канал
-livecoinbtcalphaSMS(token,text1,text2,text3,text4,text5,text6,chatid); 
- function livecoinbtcalphaSMS(token,text1,text2,text3,text4,text5,text6,chatid){
+livecoinbtcalphaSMS(token,text1,text2,text3,text4,text5,text6,text7,text8,chatid); 
+ function livecoinbtcalphaSMS(token,text1,text2,text3,text4,text5,text6,text7,text8,chatid){
   var z=$.ajax({  
   type: "POST",  
-  url: "https://api.telegram.org/bot"+token+"/sendMessage?chat_id="+chatid+"&text="+text1+text2+text3+text4+text5+text6,
+  url: "https://api.telegram.org/bot"+token+"/sendMessage?chat_id="+chatid+"&text="+text1+text2+text3+text4+text5+text6+text7+text8,
   
    
   }); 

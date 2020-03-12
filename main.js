@@ -624,7 +624,7 @@ if(currentPrice_SellCOIN_USD_livecoin < currentPrice_BuyCOIN_USD && $('#livecoin
 if(currentPrice_SellCOIN_USD_livecoin < currentPrice_SellCOIN_USD_hotbit && $('#livecoinhotbit_notificator').prop('checked'))beep();
 	      
 var min_transactionss1 = $('#min_transactionss1').val();	  
-if(btcalphalivecoin > min_transactionss1 && $('#btcalphalivecoin_notificator').prop('checked'))beep();	      
+if(value2 > min_transactionss1 && $('#btcalphalivecoin_notificator').prop('checked'))beep();	      
 //if(currentPrice_SellCOIN_USD < currentPrice_BuyCOIN_USD_livecoin && $('#btcalphalivecoin_notificator').prop('checked'))beep();
 	      
 if(currentPrice_BuyCOIN_USD_hotbit < currentPrice_BuyCOIN_USD_livecoin && $('#hotbitlivecoin_notificator').prop('checked'))beep();        
@@ -665,7 +665,7 @@ if(min_transaction11 > 0) {
 		
 if(min_transaction22 > 0) {	      
  if(currentPrice_BuyCOIN_USD < min_transaction22) { 
-           Status_min_transaction22.innerHTML = ('ПРОДАН');
+           Status_min_transaction22.innerHTML = ('КУПЛЕНО');
       Status_min_transaction22.style.color = "#006400";
 }
         } 
@@ -687,7 +687,7 @@ if(min_transaction33 > 0) {
 	      
 if(min_transaction44 > 0) {	      
  if(currentPrice_BuyCOIN_USD_livecoin < min_transaction44) { 
-           Status_min_transaction44.innerHTML = ('ПРОДАН');
+           Status_min_transaction44.innerHTML = ('КУПЛЕНО');
       Status_min_transaction44.style.color = "#006400";
 }
         } 
@@ -711,7 +711,7 @@ if(min_transaction55 > 0) {
 	      
 if(min_transaction66 > 0) {	      
  if(currentPrice_SellCOIN_USD_hotbit < min_transaction66) { 
-           Status_min_transaction66.innerHTML = ('ПРОДАН');
+           Status_min_transaction66.innerHTML = ('КУПЛЕНО');
       Status_min_transaction66.style.color = "#006400";
 }
         } 

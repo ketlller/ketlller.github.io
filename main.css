@@ -44,10 +44,10 @@
 #min_transactionss5{padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
 #min_transactionss6{padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
 
-.min_transactionss1 {
+#min_transactionss1 {
  display:inline-block;
 }
-.btcalphalivecoin_notificator {
+#btcalphalivecoin_notificator {
  display:inline-block;
 }
 

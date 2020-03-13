@@ -37,7 +37,8 @@
 
 #min_transaction{padding: 5px;font-size: 14px;width: 40px;border: 1px solid #dbdbdb;}
 
-#min_transactionss1{padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
+ 
+#min_transactionss1{ bottom: 545px; left: 20px; display: block; padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
 #min_transactionss2{padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
 #min_transactionss3{padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
 #min_transactionss4{padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
@@ -45,34 +46,6 @@
 #min_transactionss6{padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
 
  
-
-.min_transa{
-
-    display: flex;
-
-    flex-direction: row;
-
-    justify-content: flex-start;
-
-    border: 5px solid black;
-
-    padding: 20px;
-}
-#min_transactionss1{
-    width: 150px;
-    border: 2px solid black;
-    background-color: green;
-    height: 150px;
-    border-right: 0px;
-}
-#btcalphalivecoin_notificator{
-    width: 100%;
-    border: 2px solid black;
-    background-color: yellow;
-    height: 300px;
-
-
-
 
 #min_transaction11{padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
 #min_transaction22{padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}

@@ -46,7 +46,18 @@
 
  
 
-.min_transa{display:inline-block;}
+.min_transa{
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: flex-start;
+
+    border: 5px solid black;
+
+    padding: 20px;
+}
 
 
 #min_transaction11{padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}

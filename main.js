@@ -624,7 +624,7 @@ if(currentPrice_SellCOIN_USD_livecoin < currentPrice_BuyCOIN_USD && $('#livecoin
 if(currentPrice_SellCOIN_USD_livecoin < currentPrice_SellCOIN_USD_hotbit && $('#livecoinhotbit_notificator').prop('checked'))beep();
 	      
 var min_transactionss1 = $('#min_transactionss1').val();	  
-if(value2 > min_transactionss1 && $('#btcalphalivecoin_notificator').prop('checked'))beep();	      
+if(btcalphalivecoin > min_transactionss1 && $('#btcalphalivecoin_notificator').prop('checked'))beep();	      
 //if(currentPrice_SellCOIN_USD < currentPrice_BuyCOIN_USD_livecoin && $('#btcalphalivecoin_notificator').prop('checked'))beep();
 	      
 if(currentPrice_BuyCOIN_USD_hotbit < currentPrice_BuyCOIN_USD_livecoin && $('#hotbitlivecoin_notificator').prop('checked'))beep();        

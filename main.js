@@ -146,8 +146,8 @@ var Status_min_transaction66 = document.querySelector('#Status_min_transaction66
     var targetUrl_COIN_USD = 'https://btc-alpha.com/api/v1/orderbook/PZM_USD/'; 
    targetUrl_COIN_USD=targetUrl_COIN_USD.replace(/[^\/]+(?=\/$)/,val1);
    
-    var targetUrl_COIN_USD_Livecoin = 'https://api.livecoin.net/exchange/order_book?currencyPair=PZM/USD';
-   targetUrl_COIN_USD_Livecoin=targetUrl_COIN_USD_Livecoin.replace(/[^\=]*$/,val2);
+ //   var targetUrl_COIN_USD_Livecoin = 'https://api.livecoin.net/exchange/order_book?currencyPair=PZM/USD';
+ //  targetUrl_COIN_USD_Livecoin=targetUrl_COIN_USD_Livecoin.replace(/[^\=]*$/,val2);
    
       var targetUrl_COIN_USD_hotbit1 = 'https://api.hotbit.io/api/v1/order.book?market=PZM/USDT&side=1&offset=0&limit=1'; 
    targetUrl_COIN_USD_hotbit1=targetUrl_COIN_USD_hotbit1.replace(/([?&]market=)[^&]+/,'$1'+val3);
@@ -164,7 +164,7 @@ let proxyUrl = 'https://cors-anywhere.herokuapp.com/';
 
     
 let resUrl1 = proxyUrl + targetUrl_COIN_USD;
-let resUrl2 = proxyUrl + targetUrl_COIN_USD_Livecoin;
+//  let resUrl2 = proxyUrl + targetUrl_COIN_USD_Livecoin;
 let resUrl3 = proxyUrl + targetUrl_COIN_USD_hotbit1;
 let resUrl4 = proxyUrl + targetUrl_COIN_USD_hotbit2;
 
@@ -195,27 +195,27 @@ console.log()
 
      
 
-   fetch(resUrl2)
-    .then(res => {
-      res.json().then(body => {  
-      divBuyCOIN_USD_livecoin.innerHTML = body.bids[0][0];
-    divBuyCOIN_USD_livecoin1.innerHTML = body.bids[0][1];
-      divSellCOIN_USD_livecoin.innerHTML = body.asks[0][0];
-    divSellCOIN_USD_livecoin1.innerHTML = body.asks[0][1];
+ //  fetch(resUrl2)
+//    .then(res => {
+//      res.json().then(body => {  
+ //     divBuyCOIN_USD_livecoin.innerHTML = body.bids[0][0];
+//    divBuyCOIN_USD_livecoin1.innerHTML = body.bids[0][1];
+//      divSellCOIN_USD_livecoin.innerHTML = body.asks[0][0];
+//    divSellCOIN_USD_livecoin1.innerHTML = body.asks[0][1];
     
-       currentPrice_BuyCOIN_USD_livecoin = body.bids[0][0];
-       currentPrice_SellCOIN_USD_livecoin = body.asks[0][0];
-       StatusConect_COIN_USD_livecoin = body.bids[0].length; 
+ //      currentPrice_BuyCOIN_USD_livecoin = body.bids[0][0];
+ //      currentPrice_SellCOIN_USD_livecoin = body.asks[0][0];
+  //     StatusConect_COIN_USD_livecoin = body.bids[0].length; 
         
        
         
- var value = (((currentPrice_BuyCOIN_USD*100)/currentPrice_SellCOIN_USD_livecoin)-100).toFixed(2);   
+// var value = (((currentPrice_BuyCOIN_USD*100)/currentPrice_SellCOIN_USD_livecoin)-100).toFixed(2);   
       livecoinbtcalpha.innerHTML = value;
- var value1 = (((currentPrice_SellCOIN_USD_hotbit*100)/currentPrice_SellCOIN_USD_livecoin)-100).toFixed(2);
+// var value1 = (((currentPrice_SellCOIN_USD_hotbit*100)/currentPrice_SellCOIN_USD_livecoin)-100).toFixed(2);
       livecoinhotbit.innerHTML = value1;    
- var value2 = (((currentPrice_BuyCOIN_USD_livecoin*100)/currentPrice_SellCOIN_USD)-100).toFixed(2); 	 
+// var value2 = (((currentPrice_BuyCOIN_USD_livecoin*100)/currentPrice_SellCOIN_USD)-100).toFixed(2); 	 
       btcalphalivecoin.innerHTML = value2;        
-  var value3 = (((currentPrice_BuyCOIN_USD_livecoin*100)/currentPrice_BuyCOIN_USD_hotbit)-100).toFixed(2);
+//  var value3 = (((currentPrice_BuyCOIN_USD_livecoin*100)/currentPrice_BuyCOIN_USD_hotbit)-100).toFixed(2);
       hotbitlivecoin.innerHTML = value3; 
  var value4 = (((currentPrice_SellCOIN_USD_hotbit*100)/currentPrice_SellCOIN_USD)-100).toFixed(2);         
       btcalphahotbit.innerHTML = value4;

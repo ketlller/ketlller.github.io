@@ -195,17 +195,17 @@ console.log()
 
      
 
- //  fetch(resUrl2)
-//    .then(res => {
-//      res.json().then(body => {  
- //     divBuyCOIN_USD_livecoin.innerHTML = body.bids[0][0];
-//    divBuyCOIN_USD_livecoin1.innerHTML = body.bids[0][1];
-//      divSellCOIN_USD_livecoin.innerHTML = body.asks[0][0];
-//    divSellCOIN_USD_livecoin1.innerHTML = body.asks[0][1];
+   fetch(resUrl2)
+    .then(res => {
+      res.json().then(body => {  
+      divBuyCOIN_USD_livecoin.innerHTML = body.bids[0][0];
+    divBuyCOIN_USD_livecoin1.innerHTML = body.bids[0][1];
+      divSellCOIN_USD_livecoin.innerHTML = body.asks[0][0];
+    divSellCOIN_USD_livecoin1.innerHTML = body.asks[0][1];
     
- //      currentPrice_BuyCOIN_USD_livecoin = body.bids[0][0];
- //      currentPrice_SellCOIN_USD_livecoin = body.asks[0][0];
-  //     StatusConect_COIN_USD_livecoin = body.bids[0].length; 
+       currentPrice_BuyCOIN_USD_livecoin = body.bids[0][0];
+       currentPrice_SellCOIN_USD_livecoin = body.asks[0][0];
+       StatusConect_COIN_USD_livecoin = body.bids[0].length; 
         
        
         
@@ -767,11 +767,11 @@ if(min_transaction66 > 0) {
         
         
      
- //   console.log(body);
+    console.log(body);
 
-//    });
-//  })
-//  .catch(err => console.log(err)); 
+    });
+  })
+  .catch(err => console.log(err)); 
   
   
   fetch(resUrl3)

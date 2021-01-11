@@ -210,13 +210,13 @@ console.log()
        
         
 // var value = (((currentPrice_BuyCOIN_USD*100)/currentPrice_SellCOIN_USD_livecoin)-100).toFixed(2);   
-      livecoinbtcalpha.innerHTML = value;
+//      livecoinbtcalpha.innerHTML = value;
 // var value1 = (((currentPrice_SellCOIN_USD_hotbit*100)/currentPrice_SellCOIN_USD_livecoin)-100).toFixed(2);
-      livecoinhotbit.innerHTML = value1;    
+ //     livecoinhotbit.innerHTML = value1;    
 // var value2 = (((currentPrice_BuyCOIN_USD_livecoin*100)/currentPrice_SellCOIN_USD)-100).toFixed(2); 	 
-      btcalphalivecoin.innerHTML = value2;        
+ //     btcalphalivecoin.innerHTML = value2;        
 //  var value3 = (((currentPrice_BuyCOIN_USD_livecoin*100)/currentPrice_BuyCOIN_USD_hotbit)-100).toFixed(2);
-      hotbitlivecoin.innerHTML = value3; 
+ //     hotbitlivecoin.innerHTML = value3; 
  var value4 = (((currentPrice_SellCOIN_USD_hotbit*100)/currentPrice_SellCOIN_USD)-100).toFixed(2);         
       btcalphahotbit.innerHTML = value4;
  var value5 = (((currentPrice_BuyCOIN_USD*100)/currentPrice_BuyCOIN_USD_hotbit)-100).toFixed(2);      

@@ -139,7 +139,7 @@ var Status_min_transaction66 = document.querySelector('#Status_min_transaction66
  btn.addEventListener('click', () => {  
 
    var val1 = document.querySelector("#new_type1").value;
-   var val2 = document.querySelector("#new_type2").value;
+ //  var val2 = document.querySelector("#new_type2").value;
    var val3 = document.querySelector("#new_type3").value;
    //var val4 = document.querySelector("#new_type4").value;
    
@@ -767,11 +767,11 @@ if(min_transaction66 > 0) {
         
         
      
-    console.log(body);
+ //   console.log(body);
 
-    });
-  })
-  .catch(err => console.log(err)); 
+//    });
+//  })
+//  .catch(err => console.log(err)); 
   
   
   fetch(resUrl3)
